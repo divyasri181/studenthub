@@ -1,0 +1,264 @@
+{
+  "users": [
+    {
+      "_id": "lpmj63jfmvwgupkm",
+      "name": "Alex Johnson",
+      "email": "student.demo@cse.edu",
+      "password": "$2a$10$O9d90K/AdafShp.ZzlNBueZUI54TWQNkghQZQ.EO/Abckqni.eEdK",
+      "college": "Diploma in Computer Science & Engineering",
+      "currency": "₹",
+      "monthlyBudget": 6500,
+      "avatar": "",
+      "createdAt": "2026-10-31T13:58:06.838Z",
+      "updatedAt": "2026-10-31T13:58:06.838Z"
+    },
+    {
+      "_id": "654321098765432109876543",
+      "name": "Alex Johnson",
+      "email": "alex.student@polytechnic.edu",
+      "password": "$2a$10$FZZwf/z8suVegD81kMHmk.5LUbtmzwsKdSlJsr57kaA/sK3s1ce6K",
+      "college": "Government Polytechnic - Diploma in Computer Science & Engineering",
+      "currency": "₹",
+      "monthlyBudget": 6500,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-31T14:08:45.480Z",
+      "updatedAt": "2026-10-31T14:08:45.481Z"
+    }
+  ],
+  "expenses": [
+    {
+      "_id": "exp_0_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Canteen Lunch & Chai",
+      "amount": 140,
+      "category": "Food",
+      "paymentMethod": "UPI",
+      "date": "2026-10-31T14:08:45.481Z",
+      "notes": "Lunch with batchmates after Computer Networks lab",
+      "createdAt": "2026-10-31T14:08:45.481Z",
+      "updatedAt": "2026-10-31T14:08:45.481Z"
+    },
+    {
+      "_id": "exp_1_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Data Structures Textbook (Narasimha Karumanchi)",
+      "amount": 520,
+      "category": "Education",
+      "paymentMethod": "Debit Card",
+      "date": "2026-10-30T14:08:45.481Z",
+      "notes": "Semester 4 Reference Book for Algorithms",
+      "createdAt": "2026-10-30T14:08:45.481Z",
+      "updatedAt": "2026-10-30T14:08:45.481Z"
+    },
+    {
+      "_id": "exp_2_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Monthly College Bus & Metro Pass",
+      "amount": 650,
+      "category": "Travel",
+      "paymentMethod": "UPI",
+      "date": "2026-10-28T14:08:45.481Z",
+      "notes": "Student concession monthly travel smart card",
+      "createdAt": "2026-10-28T14:08:45.481Z",
+      "updatedAt": "2026-10-28T14:08:45.481Z"
+    },
+    {
+      "_id": "exp_3_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Hostel Mess Food Fee Advance",
+      "amount": 2200,
+      "category": "Food",
+      "paymentMethod": "Net Banking",
+      "date": "2026-10-26T14:08:45.481Z",
+      "notes": "Monthly mess dues payment",
+      "createdAt": "2026-10-26T14:08:45.481Z",
+      "updatedAt": "2026-10-26T14:08:45.481Z"
+    },
+    {
+      "_id": "exp_4_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Web Dev Project Color Prints & Spiral Binding",
+      "amount": 180,
+      "category": "Education",
+      "paymentMethod": "Cash",
+      "date": "2026-10-25T14:08:45.481Z",
+      "notes": "Project documentation submission to HOD",
+      "createdAt": "2026-10-25T14:08:45.481Z",
+      "updatedAt": "2026-10-25T14:08:45.481Z"
+    },
+    {
+      "_id": "exp_5_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Weekend Movie & Popcorn with CSE Friends",
+      "amount": 320,
+      "category": "Entertainment",
+      "paymentMethod": "UPI",
+      "date": "2026-10-23T14:08:45.481Z",
+      "notes": "Relaxation after mid-term examinations",
+      "createdAt": "2026-10-23T14:08:45.481Z",
+      "updatedAt": "2026-10-23T14:08:45.481Z"
+    },
+    {
+      "_id": "exp_6_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "College Fest T-Shirt & Badge",
+      "amount": 380,
+      "category": "Shopping",
+      "paymentMethod": "UPI",
+      "date": "2026-10-20T14:08:45.482Z",
+      "notes": "Annual Tech Fest merchandise",
+      "createdAt": "2026-10-20T14:08:45.482Z",
+      "updatedAt": "2026-10-20T14:08:45.482Z"
+    },
+    {
+      "_id": "exp_7_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "5G Student Data Recharge (30 Days)",
+      "amount": 299,
+      "category": "Others",
+      "paymentMethod": "UPI",
+      "date": "2026-10-17T14:08:45.482Z",
+      "notes": "Online lectures and GitHub project pushes",
+      "createdAt": "2026-10-17T14:08:45.482Z",
+      "updatedAt": "2026-10-17T14:08:45.482Z"
+    },
+    {
+      "_id": "exp_8_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Lab Record Sheets & Engineering Drawing Pens",
+      "amount": 190,
+      "category": "Education",
+      "paymentMethod": "Cash",
+      "date": "2026-10-15T14:08:45.482Z",
+      "notes": "Microprocessor lab record documentation",
+      "createdAt": "2026-10-15T14:08:45.482Z",
+      "updatedAt": "2026-10-15T14:08:45.482Z"
+    },
+    {
+      "_id": "exp_9_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Evening Coffee & Samosas during Group Study",
+      "amount": 95,
+      "category": "Food",
+      "paymentMethod": "UPI",
+      "date": "2026-10-13T14:08:45.482Z",
+      "notes": "Study session before OS unit test",
+      "createdAt": "2026-10-13T14:08:45.482Z",
+      "updatedAt": "2026-10-13T14:08:45.482Z"
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "task_0_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Computer Networks - Socket Programming Lab Record",
+      "description": "Complete TCP/UDP client-server socket code and output screenshots in the lab manual.",
+      "type": "Assignment",
+      "subject": "Computer Networks",
+      "priority": "High",
+      "dueDate": "2026-11-01T14:08:45.482Z",
+      "completed": false,
+      "createdAt": "2026-10-31T14:08:45.483Z",
+      "updatedAt": "2026-10-31T14:08:45.483Z"
+    },
+    {
+      "_id": "task_1_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "DBMS - SQL Mini Project with Normalization",
+      "description": "Design ER Diagram, 3NF schema, and sample SQL queries for Hospital Management System.",
+      "type": "Project",
+      "subject": "Database Systems",
+      "priority": "Urgent",
+      "dueDate": "2026-11-03T14:08:45.482Z",
+      "completed": false,
+      "createdAt": "2026-10-31T14:08:45.483Z",
+      "updatedAt": "2026-10-31T14:08:45.483Z"
+    },
+    {
+      "_id": "task_2_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Operating Systems - Semaphore & Deadlock Seminar Prep",
+      "description": "Prepare 10-slide PowerPoint presentation on Banker's Algorithm for Deadlock Avoidance.",
+      "type": "Exam Prep",
+      "subject": "Operating Systems",
+      "priority": "Medium",
+      "dueDate": "2026-11-05T14:08:45.482Z",
+      "completed": false,
+      "createdAt": "2026-10-31T14:08:45.483Z",
+      "updatedAt": "2026-10-31T14:08:45.483Z"
+    },
+    {
+      "_id": "task_3_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Data Structures - Implement AVL Tree in C++",
+      "description": "Write functions for Left-Rotate, Right-Rotate, Insertion, and Inorder Traversal.",
+      "type": "Assignment",
+      "subject": "Data Structures",
+      "priority": "High",
+      "dueDate": "2026-11-07T14:08:45.482Z",
+      "completed": false,
+      "createdAt": "2026-10-31T14:08:45.483Z",
+      "updatedAt": "2026-10-31T14:08:45.483Z"
+    },
+    {
+      "_id": "task_4_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Renew Semester Library Books (Operating System Concepts)",
+      "description": "Visit Central Library to renew Galvin textbook before penalty date.",
+      "type": "Personal Task",
+      "subject": "General",
+      "priority": "Low",
+      "dueDate": "2026-11-02T14:08:45.482Z",
+      "completed": false,
+      "createdAt": "2026-10-31T14:08:45.483Z",
+      "updatedAt": "2026-10-31T14:08:45.483Z"
+    },
+    {
+      "_id": "task_5_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Web Technology - Build Responsive Portfolio Site",
+      "description": "Created dynamic HTML5, Tailwind CSS, and JavaScript portfolio with GitHub deployment.",
+      "type": "Project",
+      "subject": "Web Technologies",
+      "priority": "Medium",
+      "dueDate": "2026-10-29T14:08:45.482Z",
+      "completed": true,
+      "completedAt": "2026-10-29T14:08:45.482Z",
+      "createdAt": "2026-10-31T14:08:45.483Z",
+      "updatedAt": "2026-10-31T14:08:45.483Z"
+    },
+    {
+      "_id": "task_6_1793455725483",
+      "user": "654321098765432109876543",
+      "title": "Python Lab - Implement Recursive Fibonacci & Factorial",
+      "description": "Verified test cases and submitted to professor via Google Classroom.",
+      "type": "Assignment",
+      "subject": "Python Programming",
+      "priority": "Low",
+      "dueDate": "2026-10-27T14:08:45.482Z",
+      "completed": true,
+      "completedAt": "2026-10-27T14:08:45.482Z",
+      "createdAt": "2026-10-31T14:08:45.483Z",
+      "updatedAt": "2026-10-31T14:08:45.483Z"
+    }
+  ],
+  "budgets": [
+    {
+      "_id": "budget_1793455725483",
+      "user": "654321098765432109876543",
+      "month": "2026-10",
+      "totalBudget": 6500,
+      "categoryBudgets": {
+        "Food": 2500,
+        "Travel": 1000,
+        "Shopping": 800,
+        "Education": 1200,
+        "Entertainment": 500,
+        "Others": 500
+      },
+      "alertThreshold": 80,
+      "createdAt": "2026-10-31T14:08:45.483Z",
+      "updatedAt": "2026-10-31T14:08:45.483Z"
+    }
+  ]
+}

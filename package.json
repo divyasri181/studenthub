@@ -1,0 +1,20 @@
+{
+  "name": "smart-student-expense-task-manager",
+  "version": "1.0.0",
+  "description": "Smart Student Expense & Task Manager - MERN Stack Web Application",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && npm --prefix server install && npm --prefix client install",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"magenta,cyan\" \"npm run server\" \"npm run client\"",
+    "start": "concurrently -n \"SERVER,CLIENT\" -c \"magenta,cyan\" \"npm --prefix server start\" \"npm --prefix client run dev\"",
+    "seed": "npm --prefix server run seed",
+    "build": "npm --prefix client run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "Diploma CSE Student Portfolio",
+  "license": "MIT"
+}
