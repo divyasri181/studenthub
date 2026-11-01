@@ -1,11 +1,22 @@
 import api from './api';
+import { mockStorage } from './mockStorage';
 
 export const budgetService = {
   async getBudgetStatus(month) {
-    return await api.get('/budget', { params: { month } });
+    try {
+      return await api.get('/budget', { params: { month } });
+    } catch (err) {
+      console.warn('Backend unavailable, using fallback storage:', err.message);
+      return mockStorage.getBudgetStatus(month);
+    }
   },
 
   async setBudget(budgetData) {
-    return await api.post('/budget', budgetData);
+    try {
+      return await api.post('/budget', budgetData);
+    } catch (err) {
+      console.warn('Backend unavailable, using fallback storage:', err.message);
+      return mockStorage.setBudget(budgetData);
+    }
   },
 };
